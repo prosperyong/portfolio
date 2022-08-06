@@ -1,4 +1,4 @@
 @import "./partials/var";
 body {
-    font-weight: map-get($map: $font, $key: Regular);
+    font-weight: map-get($map: $font, $key: "weight");
 }
