@@ -2,20 +2,20 @@ $font-family: 'Poppins',
 sans-serif;
 $font-weight: ( "Regular": 400, "Medium": 400, "Semibold": 600);
 $size:( "40": 2.5rem, "36": 2.25rem, "32": 2rem, "28": 1.75rem, "24": 1.5rem, "20": 1.25rem, "16": 1rem, "14": 0.875rem);
-$Pr-Lavender:#7456FF;
-$Sr-Lavender:#8368FF;
-$Tr-Lavender:#A693FF;
-$Qt-Lavender:#C5B9FF;
-$Qn-Lavender:#E0DAFF;
-$Ln-Lavender:linear-gradient(103.38deg, #7456FF 8.68%, #8368FF 100%);
-$As-Lavender:#F5F2FF;
-$White:#FFF;
-$Pr-Black:#0C0C0C;
-$Sr-Black:#0F0F0F;
-$Tr-Black:#131313;
-$Pr-Grey:#707070;
-$Sr-Grey:#999999;
-$Linear-Black:linear-gradient(100.67deg, #0F0F0F 7.93%, #060021 100%);
+$pr-Lavender:#7456FF;
+$sr-Lavender:#8368FF;
+$tr-Lavender:#A693FF;
+$qt-Lavender:#C5B9FF;
+$qn-Lavender:#E0DAFF;
+$ln-Lavender:linear-gradient(103.38deg, #7456FF 8.68%, #8368FF 100%);
+$as-Lavender:#F5F2FF;
+$white:#FFF;
+$pr-Black:#0C0C0C;
+$sr-Black:#0F0F0F;
+$tr-Black:#131313;
+$pr-Grey:#707070;
+$sr-Grey:#999999;
+$linear-Black:linear-gradient(100.67deg, #0F0F0F 7.93%, #060021 100%);
 *,
 ::before,
 ::after {
@@ -24,10 +24,13 @@ $Linear-Black:linear-gradient(100.67deg, #0F0F0F 7.93%, #060021 100%);
     box-sizing: border-box;
 }
 
+
+/* Frequently Used Styles */
+
 body {
     font-family: $font-family;
-    background-color: $Sr-Black;
-    color: $White;
+    background-color: $sr-Black;
+    color: $white;
 }
 
 .container {
@@ -36,6 +39,10 @@ body {
 
 li {
     list-style: none;
+}
+
+.d-none {
+    display: none;
 }
 
 .heading-1 {

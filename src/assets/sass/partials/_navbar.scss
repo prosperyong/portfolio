@@ -12,12 +12,26 @@
         .navbrand {
             text-transform: capitalize;
             span {
-                color: $Pr-Lavender;
+                color: $pr-Lavender;
                 text-transform: capitalize;
             }
         }
         .nav-items {
             display: none;
+        }
+        .nav-toggler {
+            background: transparent;
+            border: none;
+            color: $white;
+            font-size: map-get($map: $size, $key: "32");
+            &.active .btn-default,
+            .btn-toggled {
+                display: none;
+            }
+            &.active .btn-default,
+            .btn-toggled {
+                display: none;
+            }
         }
     }
 }

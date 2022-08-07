@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+/* Frequently Used Styles */
 body {
   font-family: "Poppins", sans-serif;
   background-color: #0F0F0F;
@@ -20,6 +21,10 @@ body {
 
 li {
   list-style: none;
+}
+
+.d-none {
+  display: none;
 }
 
 .heading-1 {
@@ -138,5 +143,19 @@ li {
   text-transform: capitalize;
 }
 .navbar .container .nav-items {
+  display: none;
+}
+.navbar .container .nav-toggler {
+  background: transparent;
+  border: none;
+  color: #FFF;
+  font-size: 2rem;
+}
+.navbar .container .nav-toggler.active .btn-default,
+.navbar .container .nav-toggler .btn-toggled {
+  display: none;
+}
+.navbar .container .nav-toggler.active .btn-default,
+.navbar .container .nav-toggler .btn-toggled {
   display: none;
 }
