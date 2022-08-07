@@ -56,6 +56,8 @@ exports.copyFontAwesome = copyFontAwesome;
 exports.copyVendors = copyVendors;
 exports.watch = function() {
     browserSync.init({
+        files: "./*.html",
+        startPath: "/html/",
         server: {
             baseDir: './dist'
         }

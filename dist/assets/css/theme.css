@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("../node_modules/font-awesome/css/font-awesome.min.css");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0F0F0F;
+  color: #FFF;
+}
+
+.container {
+  padding-inline: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+.heading-1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.heading-2 {
+  font-weight: 600;
+  font-size: 2.25rem;
+}
+
+.heading-3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.heading-4 {
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+.heading-5 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.heading-6 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.subheading-1 {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.subheading-2 {
+  font-weight: 400;
+  font-size: 2.25rem;
+}
+
+.subheading-3 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.subheading-4 {
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.subheading-5 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.subheading-6 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.p-1 {
+  font-weight: 400;
+  font-size: 2.25rem;
+}
+
+.p-2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.p-3 {
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+.p-4 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.p-5 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.p-6 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.p-7 {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.navbar {
+  padding-block: 1rem;
+  left: 0;
+}
+.navbar .navbrand {
+  text-transform: capitalize;
+}
+.navbar .navbrand span {
+  color: #7456FF;
+  text-transform: capitalize;
+}

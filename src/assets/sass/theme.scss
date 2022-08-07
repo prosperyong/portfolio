@@ -1,4 +1,4 @@
-@import "./partials/var";
-body {
-    font-weight: map-get($map: $font, $key: "weight");
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import "./partials/default";
+@import "./partials/navbar";
+@import url('../node_modules/font-awesome/css/font-awesome.min.css');
