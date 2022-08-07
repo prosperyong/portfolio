@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-@import url("../node_modules/font-awesome/css/font-awesome.min.css");
+@import url("../vendor/bootstrap-icons/font/bootstrap-icons.css");
 *,
 ::before,
 ::after {
@@ -118,13 +118,25 @@ li {
 }
 
 .navbar {
-  padding-block: 1rem;
   left: 0;
+  padding-block: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
 }
-.navbar .navbrand {
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .container .navbrand {
   text-transform: capitalize;
 }
-.navbar .navbrand span {
+.navbar .container .navbrand span {
   color: #7456FF;
   text-transform: capitalize;
+}
+.navbar .container .nav-items {
+  display: none;
 }

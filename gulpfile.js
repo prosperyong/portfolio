@@ -43,16 +43,16 @@ function copyVendors() {
         .pipe(gulp.dest('./dist/assets/vendor/'))
 };
 
-function copyFontAwesome() {
+function copyBootstrapIcon() {
     return gulp
         .src([
-            './node_modules/@fortawesome/fontawesome-free/**/*',
+            './node_modules/bootstrap-icons/**/*',
         ])
-        .pipe(gulp.dest('./dist/assets/vendor/font-awesome'))
+        .pipe(gulp.dest('./dist/assets/vendor/bootstrap-icons'))
 };
 exports.buildCss = buildCss;
 exports.buildJs = buildJs;
-exports.copyFontAwesome = copyFontAwesome;
+exports.copyBootstrapIcon = copyBootstrapIcon;
 exports.copyVendors = copyVendors;
 exports.watch = function() {
     browserSync.init({

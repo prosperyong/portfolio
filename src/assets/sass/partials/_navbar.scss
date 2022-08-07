@@ -1,12 +1,23 @@
 .navbar {
-    padding-block: map-get($map: $size, $key: "16");
-    ;
     left: 0;
-    .navbrand {
-        text-transform: capitalize;
-        span {
-            color: $Pr-Lavender;
+    padding-block: map-get($map: $size, $key: "16");
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .navbrand {
             text-transform: capitalize;
+            span {
+                color: $Pr-Lavender;
+                text-transform: capitalize;
+            }
+        }
+        .nav-items {
+            display: none;
         }
     }
 }
